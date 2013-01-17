@@ -4,12 +4,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Symfony2 Templating Component
 Name:		php-symfony2-Templating
-Version:	2.1.4
+Version:	2.1.6
 Release:	1
 License:	MIT
 Group:		Development/Languages/PHP
 Source0:	http://pear.symfony.com/get/%{pearname}-%{version}.tgz
-# Source0-md5:	b7b2b8fec167bb7eb9079742510adecb
+# Source0-md5:	43ad449fcf46b4e3b0bcbfc696eb3d51
 URL:		http://symfony.com/doc/current/components/templating.html
 BuildRequires:	php-channel(pear.symfony.com)
 BuildRequires:	php-pear-PEAR
