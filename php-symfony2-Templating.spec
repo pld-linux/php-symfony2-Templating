@@ -3,12 +3,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	Symfony2 Templating Component
 Name:		php-symfony2-Templating
-Version:	2.7.5
+Version:	2.7.7
 Release:	1
 License:	MIT
 Group:		Development/Languages/PHP
 Source0:	https://github.com/symfony/%{package}/archive/v%{version}/%{package}-%{version}.tar.gz
-# Source0-md5:	f13914af60d5c6360878bb7bed203ad5
+# Source0-md5:	74f76b3617c3bfef1ad5845a50386d46
 URL:		http://symfony.com/doc/2.7/components/templating.html
 BuildRequires:	phpab
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
@@ -31,7 +31,7 @@ Provides all the tools needed to build any kind of template system.
 %setup -q -n templating-%{version}
 
 %build
-phpab -n -e '*/Tests/*' -o autoloader.php .
+phpab -n -e '*/Tests/*' -o autoload.php .
 
 %install
 rm -rf $RPM_BUILD_ROOT
