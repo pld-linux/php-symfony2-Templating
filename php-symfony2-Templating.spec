@@ -18,6 +18,7 @@ Requires:	php(hash)
 Requires:	php(mbstring)
 Requires:	php(pcre)
 Requires:	php(spl)
+Requires:	php-dirs >= 1.6
 Suggests:	php-psr-Log
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
