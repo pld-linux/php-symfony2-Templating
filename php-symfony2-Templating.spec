@@ -3,12 +3,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	Symfony2 Templating Component
 Name:		php-symfony2-Templating
-Version:	2.7.7
+Version:	2.7.8
 Release:	1
 License:	MIT
 Group:		Development/Languages/PHP
 Source0:	https://github.com/symfony/%{package}/archive/v%{version}/%{package}-%{version}.tar.gz
-# Source0-md5:	74f76b3617c3bfef1ad5845a50386d46
+# Source0-md5:	7104895d4ec30176e60100e1f7e09541
 URL:		http://symfony.com/doc/2.7/components/templating.html
 BuildRequires:	phpab
 BuildRequires:	rpmbuild(macros) >= 1.610
