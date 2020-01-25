@@ -1,6 +1,5 @@
 %define		package	Templating
 %define		php_min_version 5.3.9
-%include	/usr/lib/rpm/macros.php
 Summary:	Symfony2 Templating Component
 Name:		php-symfony2-Templating
 Version:	2.7.8
