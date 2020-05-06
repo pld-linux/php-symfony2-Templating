@@ -2,12 +2,12 @@
 %define		php_min_version 5.3.9
 Summary:	Symfony2 Templating Component
 Name:		php-symfony2-Templating
-Version:	2.7.8
+Version:	2.8.52
 Release:	1
 License:	MIT
 Group:		Development/Languages/PHP
 Source0:	https://github.com/symfony/%{package}/archive/v%{version}/%{package}-%{version}.tar.gz
-# Source0-md5:	7104895d4ec30176e60100e1f7e09541
+# Source0-md5:	7888fb376a806148eb3ef26c12cc814c
 URL:		http://symfony.com/doc/2.7/components/templating.html
 BuildRequires:	phpab
 BuildRequires:	rpmbuild(macros) >= 1.610
